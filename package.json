@@ -1,0 +1,16 @@
+{
+	"name": "biome-repro",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"repro": "node --experimental-strip-types src/index.ts"
+	},
+	"dependencies": {
+		"@biomejs/js-api": "0.8.0-beta.1",
+		"@biomejs/wasm-nodejs": "2.0.0-beta.4"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0-beta.4"
+	}
+}
